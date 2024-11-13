@@ -1,2 +1,5 @@
-print("Testing EX4")
-print("Hello World")
+import random
+
+def choose_word():
+    words = ["Seven", "Python", "Mesa", "Programming", "Game"]
+    return random.choice(words)
