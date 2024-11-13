@@ -32,4 +32,4 @@ def game():
     if "_" not in get_word(word, guessed):
         print("You guessed it!")
     else:
-        print(f"Game over. The word is {word}")
+        print(f"Game over... The word is {word}")
