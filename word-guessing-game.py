@@ -1,14 +1,15 @@
 import random
 
 def choose_word():
-    words = ["Computer", "Python", "Mesa", "Programming", "Game"]
+    words = ["computer", "python", "mesa", "programming", "game"]
     return random.choice(words)
 def get_word(word, guessed_lett):
-    return
-    #for each letter in word:
-    # if lett in guessed_lett
-    #       return lett
-    #      else return "_"
+    out = ""
+    for letter in word:
+        if letter in guessed_lett:
+            out + letter
+        else: out + "_"
+    return out
 
 def game():
     word = choose_word()
