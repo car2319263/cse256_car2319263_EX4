@@ -34,3 +34,6 @@ def game():
         print("You guessed it!")
     else:
         print(f"Game over... The word is {word}")
+
+if __name__ == "__main__":
+    game()
