@@ -30,7 +30,7 @@ def game():
         print( get_word(word, guessed))
         if "_" not in get_word(word, guessed):
             print(f"You guessed it!")
-            cont = True
+            break
     else:
         print(f"Game over... The word is {word}")
 
